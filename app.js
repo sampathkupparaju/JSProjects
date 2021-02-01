@@ -111,6 +111,8 @@ else{
 
 //function declarations and expression
 
+
+/*
 function greet(firstname , lastname){
     return firstname
     + " " + lastname;
@@ -137,4 +139,70 @@ console.log(square(5));
 (function(){
     console.log("IIFEs ran..");
 })();
+*/
+
+
+//map
+
+/*
+const users = [
+    {id :1, name : 'sam'},
+    {id :2, name : 'nhu'},
+    {id :3, name : 'lop'},
+    
+];
+const ids = users.map(function(users){
+return users.id;
+});
+console.log(ids);
+*/
+
+
+
+//Window methods, objects and properties
+
+/*
+console.log(123);
+window.console.log(123);
+var val = window.outerHeight;
+val = window.outerWidth;
+val = window.innerHeight;
+val = window.innerWidth;
+//scroll points -> where you are in terms of scrolling
+
+val = window.scrollY;
+//location object
+val = window.location;
+val = window.location.port;
+val = window.location.href;//complete url of the website including protocol
+//window.location.href = 'https://google.com';//redirect
+
+//History object
+//window.history.go(-1);
+
+
+//navigator object
+val = window.navigator;
+val = window.navigator.appVersion;//get the browser version
+val = window.navigator.appName;
+val = window.navigator.platform;
+console.log(val);
+*/
+
+
+//scope
+
+/*
+
+var is  function scoped 
+let and const is block scoped
+
+*/
+
+
+
+
+
+//DOM
+
 
